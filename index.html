@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile Card</title>
+    <!-- Insert TailwindCSS CDN link here -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+  </head>
+  <body class="bg-blue-400 m-0 p-0">
+    <!-- Start building your user profile card here -->
+    <div class="flex justify-center items-center  h-screen ">
+      <!-- card -->
+        <div class="flex bg-white rounded-lg shadow-lg w-[320px] flex-col  md:flex-row ">
+            
+           <!-- card header -->
+
+            <div class=" flex justify-center items-center  ">
+            <img
+                src="https://img.freepik.com/premium-vector/young-man-face-avater-vector-illustration-design_968209-13.jpg"
+                alt="profile"
+                class="rounded-full w-36 h-36 border-4 border-white bg-gray-700  md:w-96  md:h-36 md:border-8 md:border-white md:object-cover"
+            />
+            </div>
+            <!-- card body -->
+            <div class="text-center mt-4   md:m-3">
+            <h2 class="text-gray-700 font-bold text-xl leading-8">John Doe</h2>
+            <div class="text-gray-700">Software Engineer            </div>
+            <div class="text-gray-500 m-2 text-xs">
+              Passionate developer with a love for creating intuitive user experiences
+            </div>
+            <div class="flex justify-center items-center mt-4">
+              <button class="m-2 py-1 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">Follow</button>
+          </div>
+            
+          </div>
+    </div>
+  </body>
+</html>
